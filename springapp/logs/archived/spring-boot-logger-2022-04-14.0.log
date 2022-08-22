@@ -1,0 +1,191 @@
+2022-04-14 13:47:14,457 INFO org.springframework.boot.StartupInfoLogger [main] Starting AdmisssionApplication using Java 17.0.2 on DESKTOP-QH95P3G with PID 7272 (C:\Users\Parth\Desktop\13april\code\springapp\target\classes started by Parth in C:\Users\Parth\Desktop\13april\code)
+2022-04-14 13:47:14,463 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-04-14 13:47:14,464 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-14 13:47:15,785 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-14 13:47:15,908 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 100 ms. Found 6 JPA repository interfaces.
+2022-04-14 13:47:17,125 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-04-14 13:47:17,148 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-14 13:47:17,150 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-04-14 13:47:17,151 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-14 13:47:17,293 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-04-14 13:47:17,294 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2742 ms
+2022-04-14 13:47:17,595 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-14 13:47:17,700 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-14 13:47:17,984 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-14 13:47:18,128 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-04-14 13:47:18,343 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-04-14 13:47:18,367 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-04-14 13:47:19,503 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-14 13:47:19,514 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-14 13:47:20,288 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-14 13:47:20,501 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-14 13:47:20,578 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-14 13:47:20,580 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2022-04-14 13:47:20,655 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2022-04-14 13:47:20,712 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2022-04-14 13:47:20,762 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Admissions) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Admissions, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:20,774 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Admissions) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Admissions, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:20,778 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Admissions) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Admissions, isReturnType=false}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getDeserializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:20,781 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Admissions) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Admissions, isReturnType=false}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getDeserializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:20,921 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Courses) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Courses, isReturnType=false}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getDeserializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:20,923 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Courses) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Courses, isReturnType=false}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getDeserializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:20,969 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: deleteCourseUsingDELETE_1
+2022-04-14 13:47:20,973 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(org.springframework.core.io.Resource) -> ModelContext{groupName=default, type=org.springframework.core.io.Resource, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:20,976 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(org.springframework.core.io.Resource) -> ModelContext{groupName=default, type=org.springframework.core.io.Resource, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:20,986 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Courses) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Courses, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:20,990 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Courses) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Courses, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,001 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.CourseRegistration) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.CourseRegistration, isReturnType=false}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getDeserializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,006 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.CourseRegistration) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.CourseRegistration, isReturnType=false}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getDeserializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,011 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.CourseRegistration) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.CourseRegistration, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,015 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.CourseRegistration) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.CourseRegistration, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,030 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Courses) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Courses, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,032 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(java.util.List<com.diploma.admisssion.model.Courses>) -> ModelContext{groupName=default, type=java.util.List<com.diploma.admisssion.model.Courses>, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,034 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Courses) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Courses, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,049 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Courses) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Courses, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,059 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.CourseRegistration) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.CourseRegistration, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,061 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(java.util.List<com.diploma.admisssion.model.CourseRegistration>) -> ModelContext{groupName=default, type=java.util.List<com.diploma.admisssion.model.CourseRegistration>, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,063 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.CourseRegistration) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.CourseRegistration, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,081 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.CourseRegistration) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.CourseRegistration, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,118 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Institutes) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Institutes, isReturnType=false}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getDeserializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,123 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Institutes) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Institutes, isReturnType=false}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getDeserializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,130 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: addUsingPOST_1
+2022-04-14 13:47:21,148 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Institutes) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Institutes, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,151 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Institutes) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Institutes, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,164 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Institutes) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Institutes, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,168 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(java.util.List<com.diploma.admisssion.model.Institutes>) -> ModelContext{groupName=default, type=java.util.List<com.diploma.admisssion.model.Institutes>, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,172 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Institutes) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Institutes, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,178 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: getAllUsingGET_1
+2022-04-14 13:47:21,188 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.UserRatings) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.UserRatings, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,190 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(java.util.List<com.diploma.admisssion.model.UserRatings>) -> ModelContext{groupName=default, type=java.util.List<com.diploma.admisssion.model.UserRatings>, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,192 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.UserRatings) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.UserRatings, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,202 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.UserRatings) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.UserRatings, isReturnType=false}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getDeserializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,205 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.UserRatings) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.UserRatings, isReturnType=false}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getDeserializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,207 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.UserRatings) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.UserRatings, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,210 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.UserRatings) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.UserRatings, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,221 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.Institutes) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.Institutes, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,233 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.User) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.User, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,235 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.User) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.User, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,238 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.User) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.User, isReturnType=false}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getDeserializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,241 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.User) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.User, isReturnType=false}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getDeserializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,249 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: addUsingPOST_2
+2022-04-14 13:47:21,252 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.User) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.User, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,263 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(java.util.List<com.diploma.admisssion.model.User>) -> ModelContext{groupName=default, type=java.util.List<com.diploma.admisssion.model.User>, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,265 WARN springfox.documentation.schema.property.CachingModelPropertiesProvider [main] Exception calculating properties for model(com.diploma.admisssion.model.User) -> ModelContext{groupName=default, type=com.diploma.admisssion.model.User, isReturnType=true}. java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()" because "this.objectMapper" is null
+2022-04-14 13:47:21,324 INFO org.springframework.boot.StartupInfoLogger [main] Started AdmisssionApplication in 7.496 seconds (JVM running for 8.021)
+2022-04-14 13:48:50,395 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-14 13:48:50,397 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-04-14 13:48:50,462 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [http-nio-8080-exec-1] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-14 13:48:50,868 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 469 ms
+2022-04-14 13:48:51,523 INFO com.diploma.admisssion.controller.UserContoller [http-nio-8080-exec-2] Logged in with: hitesh@gmail.com
+2022-04-14 13:49:08,317 ERROR com.diploma.admisssion.exceptions.CustomGlobalExceptionHandler [http-nio-8080-exec-3] Error
+com.diploma.admisssion.exceptions.InvalidUserException: Inavlid Login Credentials
+	at com.diploma.admisssion.service.UserServiceImpl.loginUser(UserServiceImpl.java:53)
+	at com.diploma.admisssion.controller.UserContoller.login(UserContoller.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2022-04-14 13:49:47,629 INFO com.diploma.admisssion.controller.UserContoller [http-nio-8080-exec-5] User [confirmpwd=UGFydGhAMTIz, email=pbatra.cse18@chitkarauniversity.edu.in, mobno=7409679393, name=Parth Batra, pwd=UGFydGhAMTIz, user_type=1, userid=3]
+2022-04-14 13:50:08,067 INFO com.diploma.admisssion.controller.UserContoller [http-nio-8080-exec-8] Logged in with: pbatra.cse18@chitkarauniversity.edu.in
+2022-04-14 13:51:28,347 INFO com.diploma.admisssion.controller.UserContoller [http-nio-8080-exec-6] Logged in with: parthbatra55@gmail.com
+2022-04-14 14:27:16,092 ERROR com.diploma.admisssion.exceptions.CustomGlobalExceptionHandler [http-nio-8080-exec-3] Error
+com.diploma.admisssion.exceptions.InvalidUserException: Inavlid Login Credentials
+	at com.diploma.admisssion.service.UserServiceImpl.loginUser(UserServiceImpl.java:53)
+	at com.diploma.admisssion.controller.UserContoller.login(UserContoller.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2022-04-14 14:27:44,912 INFO com.diploma.admisssion.controller.UserContoller [http-nio-8080-exec-4] Logged in with: pbatra.cse18@chitkarauniversity.edu.in
